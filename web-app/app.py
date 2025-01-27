@@ -182,4 +182,4 @@ def meal_planner():
     return render_template('meal_planner.html',recipe_list=None)
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(port=5005)
